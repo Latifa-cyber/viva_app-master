@@ -64,7 +64,7 @@ class _TablePageState extends State<TablePage> {
                               children:[
                                 Container(
                                   margin: EdgeInsets.only(left: 5),
-                                  child: Text('Organisation du mémoire'),
+                                  child: Text('Mémoire organization'),
                                 ),
                                 Container(
                                   alignment: Alignment.center,
@@ -73,6 +73,7 @@ class _TablePageState extends State<TablePage> {
                                 Container(
                                   alignment: Alignment.center,
                                   child:TextField(
+                                    textAlign: TextAlign.center,
                                     decoration:InputDecoration(
                                         border:InputBorder.none
                                     ) ,
@@ -85,7 +86,7 @@ class _TablePageState extends State<TablePage> {
                               children:[
                                 Container(
                                   margin: EdgeInsets.only(left: 5),
-                                  child: Text('Qualité rédactionnelle'),
+                                  child: Text('Editorial quality'),
                                 ),
                                 Container(
                                   alignment: Alignment.center,
@@ -94,6 +95,7 @@ class _TablePageState extends State<TablePage> {
                                 Container(
                                   alignment: Alignment.center,
                                   child:TextField(
+                                    textAlign: TextAlign.center,
                                     decoration:InputDecoration(
                                         border:InputBorder.none
                                     ) ,
@@ -107,7 +109,7 @@ class _TablePageState extends State<TablePage> {
                               children:[
                                 Container(
                                   margin: EdgeInsets.only(left: 5),
-                                  child: Text('Qualité de la bibliographie'),
+                                  child: Text('Bibliography quality'),
                                 ),
                                 Container(
                                   alignment: Alignment.center,
@@ -116,6 +118,7 @@ class _TablePageState extends State<TablePage> {
                                 Container(
                                   alignment: Alignment.center,
                                   child:TextField(
+                                    textAlign: TextAlign.center,
                                     decoration:InputDecoration(
                                         border:InputBorder.none
                                     ) ,
@@ -128,7 +131,7 @@ class _TablePageState extends State<TablePage> {
                               children:[
                                 Container(
                                   margin: EdgeInsets.only(left: 10),
-                                  child: Text('Contenu scientifique : clarté de la problématique, méthodologie de travail, conclusion,....'),
+                                  child: Text('Scientific content: clarity of problematic, work methodology, conclusion,....'),
                                 ),
                                 Container(
                                   alignment: Alignment.center,
@@ -137,6 +140,7 @@ class _TablePageState extends State<TablePage> {
                                 Container(
                                   alignment: Alignment.center,
                                   child:TextField(
+                                    textAlign: TextAlign.center,
                                     decoration:InputDecoration(
                                         border:InputBorder.none
                                     ) ,
@@ -149,7 +153,7 @@ class _TablePageState extends State<TablePage> {
                               children:[
                                 Container(
                                   margin: EdgeInsets.only(left: 5),
-                                  child: Text('Ergonomie / clarté de l’analyse'),
+                                  child: Text('Ergonomics / clarity of analysis'),
                                 ),
                                 Container(
                                   alignment: Alignment.center,
@@ -158,6 +162,7 @@ class _TablePageState extends State<TablePage> {
                                 Container(
                                   alignment: Alignment.center,
                                   child:TextField(
+                                    textAlign: TextAlign.center,
                                     decoration:InputDecoration(
                                         border:InputBorder.none
                                     ) ,
@@ -170,7 +175,7 @@ class _TablePageState extends State<TablePage> {
                               children:[
                                 Container(
                                   margin: EdgeInsets.only(left: 10),
-                                  child: Text('Effort développement / Analyse : originalité'),
+                                  child: Text('Development effort / Analysis: originality'),
                                 ),
                                 Container(
                                   alignment: Alignment.center,
@@ -179,6 +184,7 @@ class _TablePageState extends State<TablePage> {
                                 Container(
                                   alignment: Alignment.center,
                                   child:TextField(
+                                    textAlign: TextAlign.center,
                                     decoration:InputDecoration(
                                         border:InputBorder.none
                                     ) ,
@@ -191,7 +197,7 @@ class _TablePageState extends State<TablePage> {
                               children:[
                                 Container(
                                   margin: EdgeInsets.only(left: 10),
-                                  child: Text('Qualité des résultats'),
+                                  child: Text('Quality of results'),
                                 ),
                                 Container(
                                   alignment: Alignment.center,
@@ -200,6 +206,7 @@ class _TablePageState extends State<TablePage> {
                                 Container(
                                   alignment: Alignment.center,
                                   child:TextField(
+                                    textAlign: TextAlign.center,
                                     decoration:InputDecoration(
                                         border:InputBorder.none
                                     ) ,
@@ -211,7 +218,7 @@ class _TablePageState extends State<TablePage> {
                               children:[
                                 Container(
                                   margin: EdgeInsets.only(left: 10),
-                                  child: Text('Maîtrise des outils'),
+                                  child: Text('Mastery of tools'),
                                 ),
                                 Container(
                                   alignment: Alignment.center,
@@ -220,6 +227,7 @@ class _TablePageState extends State<TablePage> {
                                 Container(
                                   alignment: Alignment.center,
                                   child:TextField(
+                                    textAlign: TextAlign.center,
                                     decoration:InputDecoration(
                                         border:InputBorder.none
                                     ) ,
@@ -232,7 +240,7 @@ class _TablePageState extends State<TablePage> {
                               children:[
                                 Container(
                                   margin: EdgeInsets.only(left: 10),
-                                  child: Text('Qualité de la présentation'),
+                                  child: Text('Presentation quality'),
                                 ),
                                 Container(
                                   alignment: Alignment.center,
@@ -241,6 +249,7 @@ class _TablePageState extends State<TablePage> {
                                 Container(
                                   alignment: Alignment.center,
                                   child:TextField(
+                                    textAlign: TextAlign.center,
                                     decoration:InputDecoration(
                                         border:InputBorder.none
                                     ) ,
@@ -252,7 +261,7 @@ class _TablePageState extends State<TablePage> {
                               children:[
                                 Container(
                                   margin: EdgeInsets.only(left: 10),
-                                  child: Text('Expression orale aisée'),
+                                  child: Text('Fluent oral expression'),
                                 ),
                                 Container(
                                   alignment: Alignment.center,
@@ -261,6 +270,11 @@ class _TablePageState extends State<TablePage> {
                                 Container(
                                   alignment: Alignment.center,
                                   child:TextField(
+                                    textAlign: TextAlign.center,
+                                    decoration:InputDecoration(
+                                        border:InputBorder.none
+                                    ) ,
+                                    maxLines: 1,
                                   ) ,
                                 ),
                               ]
@@ -269,7 +283,7 @@ class _TablePageState extends State<TablePage> {
                               children:[
                                 Container(
                                   margin: EdgeInsets.only(left: 10),
-                                  child: Text('Problématique bien posée'),
+                                  child: Text('Well-posed problematic'),
                                 ),
                                 Container(
                                   alignment: Alignment.center,
@@ -278,6 +292,7 @@ class _TablePageState extends State<TablePage> {
                                 Container(
                                   alignment: Alignment.center,
                                   child:TextField(
+                                    textAlign: TextAlign.center,
                                     decoration:InputDecoration(
                                         border:InputBorder.none
                                     ) ,
@@ -291,7 +306,7 @@ class _TablePageState extends State<TablePage> {
                               children:[
                                 Container(
                                   margin: EdgeInsets.only(left: 10),
-                                  child: Text('Pertinence et qualité des réponses sur le plan scientifique'),
+                                  child: Text('Relevance and quality of responses on the scientific plan'),
                                 ),
                                 Container(
                                   alignment: Alignment.center,
@@ -300,6 +315,7 @@ class _TablePageState extends State<TablePage> {
                                 Container(
                                   alignment: Alignment.center,
                                   child:TextField(
+                                    textAlign: TextAlign.center,
                                     decoration:InputDecoration(
                                         border:InputBorder.none
                                     ) ,
@@ -316,7 +332,6 @@ class _TablePageState extends State<TablePage> {
 
                       ),
                     ),
-                    Icon(Icons.arrow_downward),
 
                     Stack(
                       children: [
@@ -367,7 +382,8 @@ class _TablePageState extends State<TablePage> {
                               )
                           ),),
                       ],
-                    )
+                    ),
+                    SizedBox(height: 20,)
                   ],
                 );
               }
