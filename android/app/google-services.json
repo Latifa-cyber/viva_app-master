@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "516980468754",
+    "project_id": "vivaapp-cd0f8",
+    "storage_bucket": "vivaapp-cd0f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516980468754:android:8cdd21ab7a769fc2e8fccb",
+        "android_client_info": {
+          "package_name": "com.android.vivaApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "516980468754-fpvih4864aqelmvt516q5atu9n3vej64.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.vivaApp",
+            "certificate_hash": "306b21f4668ebd486050d4ccfcd98cf6f9793ac5"
+          }
+        },
+        {
+          "client_id": "516980468754-84q33igip16vqrt8qcp584i2ne995i88.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNQ9p7jp4NDBrvNJdmJKarJ0MNXVzxR6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "516980468754-84q33igip16vqrt8qcp584i2ne995i88.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "516980468754-cd6kf5dau8qg5netis5bvmpsmneor8cf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.vivaApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516980468754:android:703f0e3602edb433e8fccb",
+        "android_client_info": {
+          "package_name": "com.example.viva_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "516980468754-84q33igip16vqrt8qcp584i2ne995i88.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNQ9p7jp4NDBrvNJdmJKarJ0MNXVzxR6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "516980468754-84q33igip16vqrt8qcp584i2ne995i88.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "516980468754-cd6kf5dau8qg5netis5bvmpsmneor8cf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.vivaApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
